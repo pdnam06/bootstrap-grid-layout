@@ -1,0 +1,7 @@
+body { min-height: 100vh; display: flex; flex-direction: column; background-color: #f4f7fb; }
+.page-header { background: #174367; }
+.intro { background: #e8f1ff; border-radius: 12px; }
+.card { border-color: #dce5ef; border-radius: 12px; }
+.tip { background: #fff1cc; }
+code { overflow-wrap: anywhere; }
+section { scroll-margin-top: 20px; }

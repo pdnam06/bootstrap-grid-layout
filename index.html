@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bootstrap Containers và Grid System</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="page-header text-white py-4"><div class="container"><p class="small text-uppercase fw-semibold mb-2">Học tập &amp; thực hành</p><h1 class="fw-bold mb-2">Góc học Frontend</h1><p class="mb-0">Khám phá kiến thức, xây dựng kỹ năng và chia sẻ hành trình học lập trình.</p></div></header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Điều hướng chính"><div class="container">
+<a class="navbar-brand fw-bold" href="#home">WebSpace</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Mở hoặc đóng menu"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="navbarNav"><ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Trang chủ</a></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chủ đề</a><ul class="dropdown-menu"><li><a class="dropdown-item" href="#html">HTML &amp; CSS</a></li><li><a class="dropdown-item" href="#bootstrap">Bootstrap</a></li></ul></li>
+<li class="nav-item"><a class="nav-link" href="#roadmap">Lộ trình</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Liên hệ</a></li>
+</ul></div></div></nav>
+<div class="container py-4 py-lg-5" id="home"><div class="row g-4">
+<main class="col-12 col-lg-8" id="main-content">
+<section class="intro p-4 mb-4"><p class="small fw-bold text-primary mb-2">NỘI DUNG CHÍNH</p><h2 class="fw-bold">Một bố cục, nhiều màn hình</h2><p class="mb-0">Bootstrap Containers giới hạn chiều rộng nội dung. Grid System giúp sắp xếp các cột linh hoạt theo kích thước thiết bị.</p></section>
+<section id="html" class="card mb-4"><div class="card-body p-4"><span class="badge text-bg-primary mb-3">HTML &amp; CSS</span><h2 class="h4">Nền tảng của một trang web</h2><p class="mb-0 text-secondary">HTML tổ chức nội dung; CSS tạo màu sắc, khoảng cách và bố cục. Kết hợp cả hai để xây dựng giao diện rõ ràng, dễ đọc.</p></div></section>
+<section id="bootstrap" class="card mb-4"><div class="card-body p-4"><span class="badge text-bg-success mb-3">BOOTSTRAP</span><h2 class="h4">Containers và Grid System</h2><p class="mb-0 text-secondary">Trên desktop, nội dung chính chiếm 8 cột và sidebar chiếm 4 cột trong lưới 12 cột. Trên màn hình nhỏ, mỗi phần chiếm toàn bộ chiều rộng.</p></div></section>
+<section id="roadmap" class="card"><div class="card-body p-4"><h2 class="h4">Lộ trình thực hành</h2><ol class="mb-0"><li class="mb-2">Viết cấu trúc HTML.</li><li class="mb-2">Sử dụng container, row và các lớp cột.</li><li class="mb-2">Thêm Navbar có dropdown.</li><li>Kiểm tra desktop và mobile.</li></ol></div></section>
+</main>
+<aside class="col-12 col-lg-4" id="sidebar" aria-label="Thông tin bổ sung">
+<div class="card mb-4"><div class="card-body p-4"><p class="small fw-bold text-primary">SIDEBAR</p><h2 class="h4">Tin học tập</h2><ul class="mb-0 ps-3"><li class="mb-3">Thực hành Bootstrap Grid.</li><li class="mb-3">Kiểm tra menu trên mobile.</li><li>Đưa bài làm lên GitHub.</li></ul></div></div>
+<div class="tip p-4 rounded-3 mb-4"><h2 class="h5">Mẹo responsive</h2><p class="mb-0">Dùng <code>col-lg-8</code> và <code>col-lg-4</code> để chia cột từ 992px; <code>col-12</code> giúp xếp dọc ở màn hình nhỏ hơn.</p></div>
+<div class="card"><div class="card-body p-4"><h2 class="h5">Mục tiêu tuần</h2><p class="mb-0 text-secondary">Hoàn thiện một trang web responsive bằng Bootstrap.</p></div></div>
+</aside>
+</div></div>
+<footer class="bg-dark text-white text-center py-3 mt-auto" id="contact"><div class="container"><p class="mb-0">&copy; 2026 WebSpace · Bài thực hành Bootstrap Grid System</p></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
